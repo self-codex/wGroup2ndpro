@@ -1,0 +1,212 @@
+.header-makeUp {
+    background: url("../hairCare/Loreal-Paris-Hair-Care-Camila-Cabello-Marquee-D.jpg") no-repeat, center, center/cover;
+    width: 100%;
+    height: 450px;
+}
+
+.header-makeUp h1 {
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.header-makeUp p {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.main-section h3 {
+    font-size: 2rem;
+    font-weight: 400 !important;
+    margin: 15px 0;
+}
+
+.main-section p {
+    font-size: 14px;
+}
+
+.main-section a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.main-section a .fa {
+    font-size: 16px;
+    margin-left: 10px;
+    transition: .3s;
+    margin-bottom: 50px;
+}
+
+.main-section a:hover .fa {
+    transform: translateX(10px);
+}
+
+.img-box {
+    position: relative;
+    /* height: 400px !important; */
+}
+
+.img-box .w-100 {
+    height: inherit;
+}
+
+.up-page {
+    display: inline-block;
+    position: absolute;
+    top: -60px;
+    left: -20px;
+    width: 250px;
+    height: 260px;
+    z-index: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.up-border {
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    border: 2px solid #e57d7d;
+    z-index: 2;
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.up-border .fa {
+    font-size: 40px;
+    margin: 0 0 15px -20px;
+    transition: .3s;
+}
+
+.up-page:hover .fa,
+.up-border:hover .fa {
+    transform: translateX(20px);
+}
+
+.up-border p {
+    font-size: 18px;
+}
+
+.discover-makaUp a {
+    text-decoration: none;
+    color: #000 !important;
+    font-weight: 500;
+}
+
+.discover-makaUp a:hover {
+    color: rgb(100, 98, 98) !important;
+}
+
+.discover-makaUp a .fa {
+    margin-left: 7px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.discover-makaUp a:hover .fa {
+    transform: translateX(10px);
+}
+
+.discover-makaUp .btn-defualt {
+    background-color: #da5d5d !important;
+    border: 1px solid #da5d5d !important;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 0 !important;
+    padding: 20px 45px !important;
+}
+
+.discover-makaUp .trend {
+    background-color: #fff !important;
+    color: #da5d5d !important;
+    border: 1px solid #da5d5d;
+}
+
+.discover-makaUp .btn-defualt:hover {
+    background-color: #da5d5d !important;
+    color: #fff !important;
+}
+
+
+/* starting video */
+
+.sliderV {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.sliderV video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sliderV .videoNav {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderV .videoNav li {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sliderV .videoNav li img {
+    height: 100px;
+    width: 100px;
+    transition: .3s;
+    opacity: .7;
+}
+
+.sliderV .videoNav li:hover img {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+/* end video */
+
+@media(max-width:768px) {
+    .sm-hide {
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .up-page {
+        top: -70px;
+        left: -25px;
+        width: 225px;
+        height: 230px;
+    }
+    .up-border {
+        top: -55px;
+        left: -40px;
+        height: 230px;
+        width: 225px;
+    }
+}

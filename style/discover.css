@@ -1,0 +1,33 @@
+.discover {
+    background-color: rgb(238, 237, 237) !important;
+    padding: 30px 0;
+}
+
+.w-100 {
+    margin-top: 10px !important;
+    cursor: pointer;
+}
+
+p {
+    margin: 0 !important;
+}
+
+h1,
+h4 {
+    margin: 20px 0;
+}
+
+h5 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+    transition: .3s;
+}
+
+a:hover {
+    color: rgb(121, 120, 120) !important;
+}

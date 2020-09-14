@@ -1,0 +1,172 @@
+.custom-worth {
+    background: url(../worth/wow-hero-bg-desktop.jpg) no-repeat center center/cover;
+    min-height: 80vh;
+}
+
+.custom-worth h1 {
+    color: #fff !important;
+}
+
+.custom-worth p {
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.custom-worth a {
+    text-decoration: underline;
+    padding: 2px !important;
+    margin: 2px !important;
+    color: #C5A266 !important;
+}
+
+.orange {
+    background: linear-gradient(to right, #C5A266 30%, #a5844c 70%);
+    -webkit-background: -webkit-linear-gradient(to right, #C5A266 30%, #a5844c 70%);
+    padding: 50px 0;
+}
+
+.orange h3 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.orange .btn {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    transition: all .3s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.orange .btn:hover {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.voting {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.voting h4,
+.voting p,
+.voting strong {
+    color: #fff;
+}
+
+small {
+    color: #C5A266;
+}
+
+.program {
+    min-height: 100vh;
+}
+
+.program p {
+    color: #000 !important;
+}
+
+.program .w-100 {
+    max-height: 500px !important;
+}
+
+.timeline {
+    padding: 60px 0;
+}
+
+.timeline p {
+    padding: 5px 25px;
+    font-size: 14px;
+}
+
+.timeline strong {
+    margin: 20px 0;
+    display: block;
+}
+
+.timeline small {
+    display: block;
+}
+
+.client {
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.client strong {
+    display: block;
+    color: #fff;
+    margin: 14px 0
+}
+
+.client h2 {
+    color: #fff;
+    margin: 25px 0;
+}
+
+.client p {
+    margin: 0;
+}
+
+.client img:hover {
+    cursor: pointer !important;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.client a {
+    color: #fff !important;
+}
+
+.client a:hover {
+    color: #C5A266 !important;
+}
+
+.contact {
+    background-color: #a5844c;
+}
+
+.contact .inner-contact {
+    background-color: #fff !important;
+}
+
+.contact .inner-contact h3 {
+    font-weight: 400;
+}
+
+.contact .inner-contact span {
+    font-size: 12px !important;
+}
+
+.contact .inner-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contact .inner-contact a {
+    display: block;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.contact .inner-contact a:hover {
+    color: #C5A266;
+}
+
+@media(max-width:768px) {
+    .orange {
+        padding: 30px 0;
+    }
+    .orange h3 {
+        text-align: center;
+        margin-bottom: 15px !important;
+    }
+    .timeline {
+        padding: 35px 0;
+    }
+    .timeline p {
+        padding: 5px 5px !important;
+        font-size: 14px;
+    }
+}

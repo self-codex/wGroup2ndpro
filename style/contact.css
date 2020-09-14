@@ -1,0 +1,49 @@
+.custom-contact {
+    background-color: rgb(238, 237, 237);
+    padding: 50px;
+}
+
+
+/* h1 {
+    text-align: center;
+} */
+
+.white-content {
+    background-color: white;
+    padding: 40px;
+}
+
+p {
+    font-size: 14px !important;
+    margin: 0;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+span {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fa {
+    font-size: 30px;
+    margin: 5px 0 20px 0 !important;
+}
+
+.extra-small {
+    font-size: 11px !important;
+}
+
+@media(max-width:900px) {
+    .custom-contact {
+        padding: 40px 10px 40px 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .custom-contact {
+        padding: 30px 0 30px 0;
+    }
+}

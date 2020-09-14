@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.col {
+    padding: 0 !important;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.brandName {
+    font-size: 12px;
+    color: black;
+    text-decoration: none !important;
+}
+
+.humBurger {
+    display: none;
+}
+
+.top-header .humBurger .fa {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 800;
+    top: 25px;
+    left: 35px;
+    color: black !important;
+}
+
+.heading .oreal-font img {
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+}
+
+.login {
+    color: black;
+    text-decoration: none !important;
+    font-size: 13px;
+}
+
+.top-header .icons .fa {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* NAVBAR */
+
+.nav {
+    justify-content: space-evenly !important;
+    background-color: #000;
+}
+
+.nav .nav-link {
+    color: #fff;
+    padding: 10px !important;
+    font-weight: 600;
+}
+
+.nav .back-color {
+    background: linear-gradient(to right, #d49c43 30%, #924c08 70%);
+    -webkit-background: linear-gradient(to right, #d49c43 30%, #924c08 70%);
+}
+
+.nav .back-color {
+    position: relative !important;
+}
+
+#searchBox {
+    display: none;
+    position: absolute !important;
+    right: 40px;
+    width: 350px;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    transition: all .3s;
+}
+
+.menu-area {
+    position: static;
+}
+
+.mega-area {
+    left: 3px !important;
+    width: inherit !important;
+    padding-top: 15px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #f8f2f2;
+}
+
+.mega-bottom {
+    background-color: #fff;
+    padding-top: 5px !important;
+}
+
+.nav-brands {
+    display: none;
+}
+
+.font-arrow {
+    font-weight: 600;
+    color: royalblue;
+}
+
+
+/*nav bar section ending*/
+
+.home-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 350px; */
+    height: 100%;
+    background: url('../mainPage/Loreal-Paris-Makeup-Marquee-Camila-Cabello-Desktop.jpg') no-repeat center center/cover;
+    /* background-size: cover; */
+    padding: 30px 30px;
+}
+
+.home-header .cust-m {
+    margin-top: 20px !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    color: #fbfbfb !important;
+}
+
+.home-header .btn {
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border-radius: 0 !important;
+}
+
+.home-header .btn:hover {
+    color: rgb(231, 230, 230);
+}
+
+
+/* carousel */
+
+.carousel-section {
+    padding: 40px 0;
+    /* margin: 10px 0; */
+    min-height: 100vh;
+}
+
+.box .w-100 {
+    width: 200px !important;
+    height: 180px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.box p {
+    text-align: center;
+    font-size: 14px !important;
+}
+
+.box a {
+    color: black !important;
+    font-size: 16px !important;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
+
+.box a .fa {
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.box a:hover .fa {
+    transform: translateX(10px);
+}
+
+.box a:hover {
+    color: rgb(51, 50, 50) !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+
+/* product section */
+
+.product-section {
+    min-height: 70vh;
+}
+
+
+/* imgage box */
+
+.experience {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img-box {
+    position: relative;
+    height: 350px !important;
+}
+
+.img-box .w-100 {
+    height: inherit;
+}
+
+.img-box .img-footer {
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    right: 0;
+    left: 30px;
+    bottom: -40px;
+    background-color: black;
+    z-index: 1;
+    padding: 20px 10px 0;
+}
+
+.img-box .img-footer h5,
+.img-box .img-footer h6 {
+    color: #fff;
+}
+
+
+/* FOOTER SECTSION */
+
+.footer-content {
+    background-color: black !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px!important;
+    height: auto;
+}
+
+.footer-content .btn {
+    color: rgb(27, 27, 27);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 0 !important;
+    border: 2px solid #fff !important;
+}
+
+.footer-content .btn:hover {
+    background-color: rgb(88, 88, 88) !important;
+}
+
+.footer-content h1,
+.footer-content h6,
+.footer-content p,
+.footer-content label,
+.footer-content a {
+    color: rgb(238, 237, 237) !important;
+}
+
+.footer-content p,
+a {
+    font-size: 14px !important;
+    text-decoration: none !important;
+}
+
+.footer-content a:hover {
+    color: rgb(219, 218, 218) !important;
+}
+
+.footer-content .icons {
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    margin-right: 20px !important;
+}
+
+.footer-content .icons:hover {
+    background-color: rgb(10, 10, 10);
+}
+
+.footer-content .icons .fa {
+    font-size: 16px !important;
+    margin: 3px 4px;
+    margin-bottom: 30px !important;
+}
+
+.footer-nav a,
+.footer-nav p {
+    font-size: 12px !important;
+    color: rgb(114, 113, 113) !important;
+}
+
+.footer-nav .arrow a {
+    color: white !important;
+    font-size: 16px !important;
+}
+
+.footer-nav .arrow .fa:hover,
+.footer-nav .arrow a:hover {
+    color: rgb(199, 195, 195) !important;
+}
+
+.top-hr {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+.center-hr {
+    display: none;
+}
+
+.bottom-hr {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+@media(max-width:1200px) {
+    .maxWidth {
+        display: none !important;
+    }
+    .humBurger {
+        display: block;
+    }
+    /* .top-nav {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    } */
+    .inner-nav {
+        flex-direction: column !important;
+        position: absolute;
+        justify-content: flex-end !important;
+        background-color: #fff;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        padding: 20px 5px;
+    }
+    .nav .nav-link {
+        color: #000;
+        margin: 5px 0;
+        padding: 5px !important;
+    }
+    .nav-img,
+    .nav-search {
+        display: none;
+    }
+    .nav-brands {
+        display: block;
+    }
+    .center-hr {
+        display: block;
+    }
+    .mega-area {
+        left: 0 !important;
+        width: inherit !important;
+        padding-top: 15px !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background-color: #f8f2f2;
+    }
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: #e0dddd;
+}
+
+.custom-map {
+    background-color: #fff;
+    min-height: 100vh;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: #000 !important;
+    border-radius: 0 !important;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 7px 15px !important;
+    box-sizing: border-box !important;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+input {
+    width: 100px !important;
+    border: none !important;
+    background-color: #e0dddd !important;
+    padding: 7px 5px !important;
+}
+
+select {
+    word-wrap: normal;
+    width: 100px;
+    padding: 7px 5px;
+    margin: 0;
+    border: none !important;
+    background-color: #e0dddd !important;
+}
+
+select option {
+    color: white;
+}
+
+::placeholder {
+    color: #fff;
+    font-weight: 600;
+}

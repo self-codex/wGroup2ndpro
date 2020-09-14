@@ -1,0 +1,39 @@
+.custom-about {
+    background-color: rgb(243, 243, 243);
+    padding-top: 20px;
+}
+
+h1 {
+    margin: 25px 0 !important;
+    padding-left: 10px !important;
+}
+
+.lSide {
+    background-color: white;
+    padding: 15px !important;
+    box-sizing: border-box !important;
+}
+
+a {
+    color: #000 !important;
+    font-size: 14px !important;
+}
+
+p {
+    margin: 0 !important;
+    font-size: 14px !important;
+}
+
+.rSide hr {
+    margin: 6px;
+}
+
+.r-white {
+    background-color: #fff;
+}
+
+@media (max-width:767px) {
+    .area-sm {
+        display: none;
+    }
+}
